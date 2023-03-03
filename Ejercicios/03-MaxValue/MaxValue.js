@@ -1,7 +1,4 @@
-//-------------------------------- Solucion 1 --------------------------------
-
 function MaxValue (shares) {
-  // Your code here:
   let min = Infinity;
   let max = -Infinity;
   for (let i = 0; i < shares.length; i++) {
