@@ -1,7 +1,6 @@
 //-------------------------------- Solucion 1 --------------------------------
 
 function SumArray (arr, n) {
-  // Your code here:
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length; j++) {
       if(arr[i] + arr[j] === n && i !== j) return true
@@ -24,7 +23,6 @@ function SumArray2 (arr, n) {
   let end = arr.length - 1
   while(start !== end) {
     let sum = arr[start] + arr[end]
-    console.log(sum)
     if(sum === n) return true
     if(sum > n) end --
     else start ++
