@@ -1,7 +1,6 @@
 //-------------------------------- Solucion 1 --------------------------------
 
 function FindNeedle (haystack, needle) {
-  // Your code here:
   let array = [];
   let j = 0;
   for (let i = 0; i < haystack.length; i++) {
