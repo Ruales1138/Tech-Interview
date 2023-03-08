@@ -1,11 +1,14 @@
 class Node {
-  // Your code here:
-
+  constructor() {
+    this.top = null;
+  }
 }
 
 class MinStack {
-  // Your code here:
-
+  constructor(value) {
+    this.value = value;
+    this.next = null;
+  }
 }
 
 module.exports = {
