@@ -15,6 +15,12 @@ Stack.prototype.push_stack = function(value) {
   if(!this.top) {
     this.top = new Node(value)
   }
+  else {
+    let newInfo = new Node(value);
+    let oldInfo = this.top;
+    this.top = newInfo;
+    newInfo.next = oldInfo;
+  }
 }
 
 const test_stack = new Stack()
